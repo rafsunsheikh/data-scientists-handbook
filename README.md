@@ -21,11 +21,12 @@ This is an early version of the handbook. The following sections are written in 
 - [`data_types/`](data_types/) — comprehensive
 - [`data_cleaning/`](data_cleaning/) — comprehensive
 - [`data_visualization/`](data_visualization/) — comprehensive
+- [`industries/`](industries/) — **5 of 15** filled in depth (Healthcare, Finance, Retail/E-commerce, Manufacturing, Marketing); rest are stubs
 
 The following sections are **stubbed and looking for contributors**:
 
 - [`data_sources/`](data_sources/) — topic outlines only
-- [`industries/`](industries/) — chapter scaffolds only
+- [`industries/`](industries/) — 10 remaining stubs (Telecom, Energy, Transportation, Media, Government, Agriculture, Education, Insurance, Real Estate, Cybersecurity)
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) if you'd like to help fill them in.
 

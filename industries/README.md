@@ -1,28 +1,28 @@
 # Industries
 
-> **Status: stubs — looking for contributors.** Each file is a scaffold describing what each chapter should cover. If you have working experience in one of these industries, please write it up. See [CONTRIBUTING.md](../CONTRIBUTING.md).
+> **Status: partially filled.** Five chapters are written in depth; the other ten are stubs looking for contributors. If you have working experience in one of the stubbed industries, please write it up. See [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 Every industry has its own data shapes, primary sources, regulatory constraints, standard analyses, and gotchas. This section is a map of *where* the abstract data-type / cleaning / visualization knowledge lands in practice.
 
 ## Index
 
-| Industry | Distinguishing data |
-|---|---|
-| [healthcare.md](healthcare.md) | EHR, claims, imaging, genomics, wearables; PHI / HIPAA |
-| [finance.md](finance.md) | Tick / OHLCV, transactions, balances, KYC, risk models |
-| [retail_ecommerce.md](retail_ecommerce.md) | Orders, sessions, catalog, inventory, returns |
-| [manufacturing.md](manufacturing.md) | Sensor / SCADA, MES, quality, yield, supply chain |
-| [telecom.md](telecom.md) | CDRs, network logs, NPS, churn |
-| [energy_utilities.md](energy_utilities.md) | Smart meter, grid sensors, weather, demand |
-| [transportation_logistics.md](transportation_logistics.md) | GPS, AIS, shipment tracking, routing, capacity |
-| [media_entertainment.md](media_entertainment.md) | Streaming, recommendations, content metadata, ads |
-| [government_public_sector.md](government_public_sector.md) | Census, surveys, administrative records, open data |
-| [agriculture.md](agriculture.md) | Satellite, drone, sensors, yield, soil, weather |
-| [education.md](education.md) | LMS, assessments, attendance, outcomes |
-| [insurance.md](insurance.md) | Policies, claims, underwriting, fraud |
-| [real_estate.md](real_estate.md) | Listings, transactions, geospatial, valuation |
-| [marketing_advertising.md](marketing_advertising.md) | Impressions, clicks, attribution, audience, A/B |
-| [cybersecurity.md](cybersecurity.md) | Logs, network flow, endpoint events, threat intel |
+| Industry | Status | Distinguishing data |
+|---|---|---|
+| [healthcare.md](healthcare.md) | filled | EHR, claims, imaging, genomics, wearables; PHI / HIPAA |
+| [finance.md](finance.md) | filled | Tick / OHLCV, transactions, balances, KYC, risk models |
+| [retail_ecommerce.md](retail_ecommerce.md) | filled | Orders, sessions, catalog, inventory, returns |
+| [manufacturing.md](manufacturing.md) | filled | Sensor / SCADA, MES, quality, yield, supply chain |
+| [marketing_advertising.md](marketing_advertising.md) | filled | Impressions, clicks, attribution, audience, A/B |
+| [telecom.md](telecom.md) | stub | CDRs, network logs, NPS, churn |
+| [energy_utilities.md](energy_utilities.md) | stub | Smart meter, grid sensors, weather, demand |
+| [transportation_logistics.md](transportation_logistics.md) | stub | GPS, AIS, shipment tracking, routing, capacity |
+| [media_entertainment.md](media_entertainment.md) | stub | Streaming, recommendations, content metadata, ads |
+| [government_public_sector.md](government_public_sector.md) | stub | Census, surveys, administrative records, open data |
+| [agriculture.md](agriculture.md) | stub | Satellite, drone, sensors, yield, soil, weather |
+| [education.md](education.md) | stub | LMS, assessments, attendance, outcomes |
+| [insurance.md](insurance.md) | stub | Policies, claims, underwriting, fraud |
+| [real_estate.md](real_estate.md) | stub | Listings, transactions, geospatial, valuation |
+| [cybersecurity.md](cybersecurity.md) | stub | Logs, network flow, endpoint events, threat intel |
 
 ## Per-industry chapter template
 
