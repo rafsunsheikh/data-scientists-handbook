@@ -1,6 +1,6 @@
 # Industries
 
-> **Status: partially filled.** Five chapters are written in depth; the other ten are stubs looking for contributors. If you have working experience in one of the stubbed industries, please write it up. See [CONTRIBUTING.md](../CONTRIBUTING.md).
+> **Status: all filled.** All fifteen industry chapters are written in depth. Each covers data types, sources, standard schemas, cleaning particulars, standard analyses, visualizations, regulation, public datasets, and tools.
 
 Every industry has its own data shapes, primary sources, regulatory constraints, standard analyses, and gotchas. This section is a map of *where* the abstract data-type / cleaning / visualization knowledge lands in practice.
 
@@ -13,16 +13,16 @@ Every industry has its own data shapes, primary sources, regulatory constraints,
 | [retail_ecommerce.md](retail_ecommerce.md) | filled | Orders, sessions, catalog, inventory, returns |
 | [manufacturing.md](manufacturing.md) | filled | Sensor / SCADA, MES, quality, yield, supply chain |
 | [marketing_advertising.md](marketing_advertising.md) | filled | Impressions, clicks, attribution, audience, A/B |
-| [telecom.md](telecom.md) | stub | CDRs, network logs, NPS, churn |
-| [energy_utilities.md](energy_utilities.md) | stub | Smart meter, grid sensors, weather, demand |
-| [transportation_logistics.md](transportation_logistics.md) | stub | GPS, AIS, shipment tracking, routing, capacity |
-| [media_entertainment.md](media_entertainment.md) | stub | Streaming, recommendations, content metadata, ads |
-| [government_public_sector.md](government_public_sector.md) | stub | Census, surveys, administrative records, open data |
-| [agriculture.md](agriculture.md) | stub | Satellite, drone, sensors, yield, soil, weather |
-| [education.md](education.md) | stub | LMS, assessments, attendance, outcomes |
-| [insurance.md](insurance.md) | stub | Policies, claims, underwriting, fraud |
-| [real_estate.md](real_estate.md) | stub | Listings, transactions, geospatial, valuation |
-| [cybersecurity.md](cybersecurity.md) | stub | Logs, network flow, endpoint events, threat intel |
+| [telecom.md](telecom.md) | filled | CDRs, churn prediction, fraud, network KPIs |
+| [energy_utilities.md](energy_utilities.md) | filled | AMI/AMR, STLF, PMU, grid analytics, CAT modeling |
+| [transportation_logistics.md](transportation_logistics.md) | filled | GPS, GTFS, AIS, route optimization, ETA prediction |
+| [media_entertainment.md](media_entertainment.md) | filled | Streaming sessions, recsys, content valuation, A/B testing |
+| [government_public_sector.md](government_public_sector.md) | filled | Census, admin records, weighting, geography changes |
+| [agriculture.md](agriculture.md) | filled | Satellite imagery, NDVI, yield prediction, precision ag |
+| [education.md](education.md) | filled | LMS, SIS, early warning systems, learning analytics |
+| [insurance.md](insurance.md) | filled | GLM pricing, reserving, claims triangles, fraud detection |
+| [real_estate.md](real_estate.md) | filled | AVMs, hedonic pricing, MLS, property dedup |
+| [cybersecurity.md](cybersecurity.md) | filled | EDR, network flows, MITRE ATT&CK, UEBA, alert triage |
 
 ## Per-industry chapter template
 
