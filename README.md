@@ -1,6 +1,40 @@
-# The Data Scientist's Handbook
+<a id="readme-top"></a>
 
-> A community-maintained reference covering **every type of data** a data scientist might encounter, **where it comes from**, **how to clean it**, **how to visualize it**, and **how it shows up across industries**.
+[![Contributors][contributors-shield]][contributors-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
+<br />
+<div align="center">
+  <h1 align="center">The Data Scientist's Handbook</h1>
+  <p align="center">
+    A community-maintained reference covering <strong>every type of data</strong> a data scientist might encounter, <strong>where it comes from</strong>, <strong>how to clean it</strong>, <strong>how to visualize it</strong>, and <strong>how it shows up across industries</strong>.
+    <br /><br />
+    <a href="#how-to-use-this-handbook"><strong>Start reading »</strong></a>
+    <br /><br />
+    <a href="#quickstart">Run the notebooks</a>
+    &middot;
+    <a href="https://github.com/rafsunsheikh/data-scientists-handbook/issues">Report an Error</a>
+    &middot;
+    <a href="CONTRIBUTING.md">Contribute</a>
+  </p>
+</div>
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-handbook">About The Handbook</a></li>
+    <li><a href="#status">Status</a></li>
+    <li><a href="#how-to-use-this-handbook">How to use this handbook</a></li>
+    <li><a href="#repository-layout">Repository layout</a></li>
+    <li><a href="#quickstart">Quickstart</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
+</details>
+
+## About The Handbook
 
 This handbook is organized around five questions that recur on every data project:
 
@@ -12,25 +46,23 @@ This handbook is organized around five questions that recur on every data projec
 
 Each chapter is a self-contained markdown file. Where Python is helpful, you'll find a companion notebook in [`notebooks/`](notebooks/).
 
----
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Status
 
-This is an early version of the handbook. The following sections are written in depth:
+All five sections now have chapters written in depth:
 
-- [`data_types/`](data_types/) — comprehensive
-- [`data_cleaning/`](data_cleaning/) — comprehensive
-- [`data_visualization/`](data_visualization/) — comprehensive
-- [`industries/`](industries/) — **5 of 15** filled in depth (Healthcare, Finance, Retail/E-commerce, Manufacturing, Marketing); rest are stubs
+| Section | What it covers | Status |
+|---------|----------------|--------|
+| [`data_types/`](data_types/) | Numerical, categorical, text, time series, image, audio, geospatial, graph and multimodal data | Comprehensive |
+| [`data_sources/`](data_sources/) | Databases, APIs, files, web scraping, streaming, sensors and IoT, surveys, public datasets and synthetic data | Comprehensive |
+| [`industries/`](industries/) | All 15 industries, from healthcare and finance to agriculture and cybersecurity | Comprehensive |
+| [`data_cleaning/`](data_cleaning/) | Missing values, outliers, duplicates, parsing, and cleaning for each data type | Comprehensive |
+| [`data_visualization/`](data_visualization/) | A chart catalog organized by purpose and data type, plus dashboards and storytelling | Comprehensive |
 
-The following sections are **stubbed and looking for contributors**:
+The handbook is still growing. Corrections, extra examples and new notebooks are always welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) if you'd like to help.
 
-- [`data_sources/`](data_sources/) — topic outlines only
-- [`industries/`](industries/) — 10 remaining stubs (Telecom, Energy, Transportation, Media, Government, Agriculture, Education, Insurance, Real Estate, Cybersecurity)
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) if you'd like to help fill them in.
-
----
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## How to use this handbook
 
@@ -40,12 +72,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) if you'd like to help fill them in.
 
 **As a checklist.** Starting a new project? Use the chapter intros as a checklist. "Do I know what type each column is? Do I know its source? Do I have a cleaning plan? Do I have a viz plan?"
 
----
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Repository layout
 
 ```
-data_scientists_handbook/
+data-scientists-handbook/
 ├── README.md                  # you are here
 ├── CONTRIBUTING.md            # how to contribute
 ├── LICENSE                    # MIT
@@ -109,6 +141,7 @@ data_scientists_handbook/
 │
 ├── data_visualization/        # viz catalog
 │   ├── README.md              # picker: data type × purpose → chart
+│   ├── _chart_catalog_reference.md
 │   ├── distributions.md
 │   ├── comparisons.md
 │   ├── relationships.md
@@ -122,6 +155,7 @@ data_scientists_handbook/
 │   └── dashboards_and_storytelling.md
 │
 ├── notebooks/                 # runnable Python examples
+│   ├── README.md              # notebook index
 │   ├── cleaning/
 │   └── visualization/
 │
@@ -129,22 +163,40 @@ data_scientists_handbook/
     └── README.md
 ```
 
----
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Quickstart
 
 ```bash
-git clone https://github.com/<your-username>/data_scientists_handbook.git
-cd data_scientists_handbook
+git clone https://github.com/rafsunsheikh/data-scientists-handbook.git
+cd data-scientists-handbook
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 jupyter lab
 ```
 
-Then open any notebook under `notebooks/`.
+Then open any notebook under `notebooks/`. There are four cleaning notebooks (inspection and profiling, missing values, outliers, text cleaning) and three visualization notebooks (distributions, relationships, trends). See [`notebooks/README.md`](notebooks/README.md) for the full list.
 
----
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Contributing
+
+Contributions are welcome: new notebooks, worked visualization examples, corrections, citations and translations. Read [CONTRIBUTING.md](CONTRIBUTING.md) for the style guide and the pull request checklist.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/rafsunsheikh/data-scientists-handbook.svg?style=for-the-badge
+[contributors-url]: https://github.com/rafsunsheikh/data-scientists-handbook/graphs/contributors
+[stars-shield]: https://img.shields.io/github/stars/rafsunsheikh/data-scientists-handbook.svg?style=for-the-badge
+[stars-url]: https://github.com/rafsunsheikh/data-scientists-handbook/stargazers
+[issues-shield]: https://img.shields.io/github/issues/rafsunsheikh/data-scientists-handbook.svg?style=for-the-badge
+[issues-url]: https://github.com/rafsunsheikh/data-scientists-handbook/issues
+[license-shield]: https://img.shields.io/github/license/rafsunsheikh/data-scientists-handbook.svg?style=for-the-badge
+[license-url]: https://github.com/rafsunsheikh/data-scientists-handbook/blob/main/LICENSE
